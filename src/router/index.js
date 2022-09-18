@@ -19,7 +19,10 @@ Vue.use(VueRouter)
 
 let router= new VueRouter({
   routes,
-
+  
+scrollBehavior (to,form,savePosition){
+  return {y:0};
+}
 });
 export default router;
 
