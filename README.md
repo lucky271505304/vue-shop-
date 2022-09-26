@@ -17,3 +17,4 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+接口不稳定，超时刷新下页面即可
